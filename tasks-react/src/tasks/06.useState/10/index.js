@@ -15,7 +15,7 @@ function Task10() {
         setForm(form.surname = e.target.value)
     }
     return (
-        <div>
+        <div >
             <input placeholder="name" onChange={setName}></input>
             <input placeholder="surname" onChange={setSurname}></input>
             <button onClick={collect}>collect</button>

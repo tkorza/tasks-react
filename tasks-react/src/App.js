@@ -30,6 +30,7 @@ import Task9 from './tasks/06.useState/9';
 import Task10 from './tasks/06.useState/10';
 import JSX3_5 from './tasks/05.event/event/5';
 import JSX3_6 from './tasks/05.event/event/6';
+import Axios from './tasks/axios';
 
 
 
@@ -71,6 +72,7 @@ function App() {
       <Route path='/useState/9' element={<Task9></Task9>}></Route>
       <Route path='/useState/10' element={<Task10></Task10>}></Route>
 
+      <Route path='/axios' element={<Axios></Axios>}></Route>
 
     </Routes>);
 }
